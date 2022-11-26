@@ -2,6 +2,9 @@
 
 Play Spin The Wheel Game and Earn Exciting Rewards
 
+## DEMO
+https://spin-the-wheel-game.web.app
+
 <img width="960" alt="Wheel" src="https://user-images.githubusercontent.com/72973991/204110138-3c2995ca-0481-439f-bdfb-48d47ccc5fd4.png">
 
 ## Installation
