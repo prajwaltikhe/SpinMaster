@@ -1,0 +1,160 @@
+/* Adding Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Google Font: Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Main CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #bbe4c6;
+  font-family: 'Poppins', sans-serif;
+}
+h2 {
+  font-size: 1.2rem;
+}
+
+/* Custom CSS */
+.SignButton {
+  background-color: #146531;
+  border-radius: 3rem;
+  font-size: 1.3rem;
+}
+#wheel {
+  overflow: hidden;
+  padding: 0;
+  margin: -60px auto 0 auto;
+  display: block;
+  width: 38rem;
+}
+.mark {
+  overflow: hidden;
+  padding: 0;
+  display: block;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+.CHECK {
+  border: 1.5px solid black;
+}
+
+/* WEB VERSION */
+/* Design according to Laptop 14 inch screen*/
+@media (min-width: 600px) {
+  .HEAD {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .RES {
+    align-items: flex-start;
+  }
+  .INP {
+    width: 19rem;
+  }
+  .IMA img {
+    width: 80%;
+  }
+  .MOST input {
+    color: whitesmoke;
+    background: rgba(20, 20, 20, 0.2);
+    width: 10rem;
+    text-transform: uppercase;
+    font-size: 30px;
+    border-radius: 7px 0 0 7px;
+    padding-left: 15px;
+  }
+  .MOST button {
+    font-weight: 800;
+    font-size: 19px;
+    border-radius: 0 7px 7px 0;
+    padding: 1rem;
+  }
+  h1 {
+    font-size: 1.95rem;
+  }
+}
+
+/* MOBILE VERSION */
+/* Design according to SAMSUNG and APPLE phones */
+@media only screen (max-width: 599px) {
+  .HEAD {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 599px) {
+  .IMA img {
+    width: 70%;
+  }
+  h1 {
+    font-size: 1.45rem;
+  }
+  .RES {
+    align-items: center;
+  }
+  .MOST input {
+    color: whitesmoke;
+    background: rgba(20, 20, 20, 0.2);
+    width: 10rem;
+    text-transform: uppercase;
+    font-size: 25px;
+    border-radius: 7px 0 0 7px;
+    padding-left: 15px;
+  }
+  .MOST button {
+    font-weight: 800;
+    font-size: 14px;
+    border-radius: 0 7px 7px 0;
+    padding: 1rem;
+  }
+  .MAST {
+    margin-top: 2rem;
+  }
+}
+
+/* TABLET VERSION */
+/* Design according to iPad screen */
+@media (min-width: 900) {
+  .HEAD {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .INP {
+    width: 19rem;
+  }
+  .IMA img {
+    width: 80%;
+  }
+  h1 {
+    font-size: 1.95rem;
+  }
+  .MOST input {
+    color: whitesmoke;
+    background: rgba(20, 20, 20, 0.2);
+    width: 10rem;
+    text-transform: uppercase;
+    font-size: 30px;
+    border-radius: 7px 0 0 7px;
+    padding-left: 15px;
+  }
+  .MOST button {
+    font-weight: 800;
+    font-size: 19px;
+    border-radius: 0 7px 7px 0;
+    padding: 1rem;
+  }
+}
