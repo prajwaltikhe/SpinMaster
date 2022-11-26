@@ -1,6 +1,6 @@
 # Spin Wheel Game
 
-Play Spin Wheel Game and Earn Rewards
+Play Spin The Wheel Game and Earn Exciting Rewards
 
 <img width="960" alt="Wheel" src="https://user-images.githubusercontent.com/72973991/204110138-3c2995ca-0481-439f-bdfb-48d47ccc5fd4.png">
 
