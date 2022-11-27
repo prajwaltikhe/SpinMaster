@@ -1,46 +1,60 @@
-# [Spin Wheel Game](https://spin-the-wheel-game.web.app)
+# Spin The Wheel Game
 
-Play Spin The Wheel Game and Earn Exciting Rewards
+Play Spin the Wheel Game and Earn Exciting Rewards
 
-## [DEMO](https://spin-the-wheel-game.web.app)
+## Demo
 
-https://spin-the-wheel-game.web.app
+[Spin Wheel Game](https://spin-the-wheel-game.web.app)
 
-<img width="960" alt="Wheel" src="https://user-images.githubusercontent.com/72973991/204110138-3c2995ca-0481-439f-bdfb-48d47ccc5fd4.png">
+## Tech Stack
+
+1. **Frontend:** React JS, TypeScript, JavaScript, Tailwind CSS
+2. **Hosting:** Goggle Firebase
+
+## Preview
+
+![Home Screen](https://user-images.githubusercontent.com/72973991/204110138-3c2995ca-0481-439f-bdfb-48d47ccc5fd4.png)
+
+## Requirements
+
+Requirements to fork this repo are:
+
+1. Strong knowledge of TypeScript
+2. React JS, Tailwind CSS, Firebase
+3. Basic knowledge in JavaScript
 
 ## Installation
 
-Use the package manager [npm](https://docs.npmjs.com/cli/v8/commands/npm-install) to install.
+1. Clone/Download the repo
+
+2. Install Spin The Wheel Game with npm
 
 ```bash
-npm install
+  npm install
 ```
 
-## Available Scripts
+3. Run development Server
 
-### `npm start`
+```bash
+  npm run start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Production
 
-### `npm test`
+To build this project for production
 
-Launches the test runner in the interactive watch mode.
+```bash
+  npm run build
+```
 
-### `npm run build`
+## Deployment
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To deploy this project on hosting (Heroku, Firebase, Netlify, AWS, DigitalOcean)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+```bash
+  npm run deploy
+```
 
 ## License
 
-[MIT](https://opensource.org/licenses/MIT)
+[MIT](https://choosealicense.com/licenses/mit/)
